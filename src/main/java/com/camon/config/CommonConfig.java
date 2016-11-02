@@ -25,10 +25,10 @@ public class CommonConfig {
         return filter;
     }
 
-    @Bean
-    public UndertowEmbeddedServletContainerFactory embeddedServletContainerFactory() {
-        UndertowEmbeddedServletContainerFactory factory = new UndertowEmbeddedServletContainerFactory();
-        factory.addBuilderCustomizers((UndertowBuilderCustomizer) builder -> builder.addHttpListener(8081, "0.0.0.0"));
-        return factory;
-    }
+//    @Bean
+//    public UndertowEmbeddedServletContainerFactory embeddedServletContainerFactory() {
+//        UndertowEmbeddedServletContainerFactory factory = new UndertowEmbeddedServletContainerFactory();
+//        factory.addBuilderCustomizers((UndertowBuilderCustomizer) builder -> builder.addHttpListener(8081, "0.0.0.0"));
+//        return factory;
+//    }
 }
