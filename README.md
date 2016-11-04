@@ -32,7 +32,8 @@ html (mustache)
 ----
 TODO
 redis
-log
+log (rolling, logstash format) 
 argumentResolver
 controllAdvice
 uuid
+error page
