@@ -22,9 +22,17 @@ trace
 heapdump
 
 
+## devtools
+static resource 즉시 적용 : cotroll + f9
+
+
+## view
+html (mustache)
+
 ----
 TODO
-view
-devtools
 redis
 log
+argumentResolver
+controllAdvice
+uuid
